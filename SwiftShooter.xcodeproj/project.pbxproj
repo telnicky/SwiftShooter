@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		672B6BEA19401D7E000D4467 /* SpaceShipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672B6BE919401D7E000D4467 /* SpaceShipScene.swift */; };
 		6736F90B193EC43D0008CEA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736F90A193EC43D0008CEA9 /* AppDelegate.swift */; };
 		6736F90D193EC43D0008CEA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736F90C193EC43D0008CEA9 /* ViewController.swift */; };
 		6736F910193EC43D0008CEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6736F90E193EC43D0008CEA9 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		672B6BE919401D7E000D4467 /* SpaceShipScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceShipScene.swift; sourceTree = "<group>"; };
 		6736F905193EC43D0008CEA9 /* SwiftShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6736F909193EC43D0008CEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6736F90A193EC43D0008CEA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				6736F90A193EC43D0008CEA9 /* AppDelegate.swift */,
 				6736F90C193EC43D0008CEA9 /* ViewController.swift */,
+				672B6BE919401D7E000D4467 /* SpaceShipScene.swift */,
 				6736F929193EC8630008CEA9 /* HelloScene.swift */,
 				6736F90E193EC43D0008CEA9 /* Main.storyboard */,
 				6736F911193EC43D0008CEA9 /* Images.xcassets */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6736F92A193EC8630008CEA9 /* HelloScene.swift in Sources */,
+				672B6BEA19401D7E000D4467 /* SpaceShipScene.swift in Sources */,
 				6736F90D193EC43D0008CEA9 /* ViewController.swift in Sources */,
 				6736F90B193EC43D0008CEA9 /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +411,7 @@
 				6736F923193EC43D0008CEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6736F924193EC43D0008CEA9 /* Build configuration list for PBXNativeTarget "SwiftShooterTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				6736F926193EC43D0008CEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
